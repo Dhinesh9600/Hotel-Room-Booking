@@ -1,0 +1,457 @@
+/* Header.css */
+.header {
+  background: hsl(170, 49%, 20%);
+  color: #fff;
+  padding: 2rem;
+  text-align: right;
+}
+
+/* Footer.css */
+/* Footer.css */
+.footer-container {
+  background: #1a4b43;
+  color: #fff;
+  padding: 2rem 0; /* Increase padding for better spacing */
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 150px;
+} 
+
+.footer-details {
+  text-align: left;
+}
+
+.footer-details p {
+  margin: 0.5rem 0;
+}
+
+.footer-copyright {
+  margin-top: 1rem;
+}
+/* Contact.css */
+.contact-container {
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/17/09/28/hotel-1831072_640.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-card {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for card */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for the card */
+  text-align: center;
+}
+
+.contact-card h2 {
+  color: #333;
+}
+/* About.css */
+.about-container {
+  background-image: url('https://images.pexels.com/photos/1001965/pexels-photo-1001965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  padding: 40px 0;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+  color: #333;
+}
+
+.about-content p {
+  line-height: 1.6;
+  color: #555;
+}
+/* ContactForm.css */
+.contact-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contactback{
+  margin:0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('https://img.freepik.com/premium-photo/luxury-hotel-lobby-with-furniture-large-window-generative-ai_634358-381.jpg');
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* SignUpForm.css */
+.signup-form-container {
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/20/06/46/office-730681_640.jpg);
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*Room.css 
+
+.room-container {
+  display: flex;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.room-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.room-details {
+  flex: 1;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Add this CSS to your stylesheet or create a new stylesheet 
+
+.rooms-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.room-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.room-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.room-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+.room-card p {
+  margin-bottom: 8px;
+}
+
+.room-card button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.room-card button:hover {
+  background-color: #2074a0;
+}
+
+
+/*body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+div {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="date"],
+input[type="time"],
+select {
+  width: 50%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+
+.ui.card-group {
+  display: flex;
+  justify-content: center;
+}
+
+
+.ui.card {
+  margin: 10px;
+  width: 300px; 
+}
+
+.ui.card .card-content {
+  text-align: left;
+}
+
+.ui.card .image {
+  width: 100%;
+  height: auto;
+}
+
+.ui.card .extra {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add more styling as needed */
+
+
+.room-container-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ui.link.cards.horizontal {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+.ui.link.cards.horizontal > .card {
+  flex: 0 0 auto;
+  width: 300px; /* Set a fixed width for each card */
+  margin-right: 10px; /* Adjust the spacing between cards */
+}
+
+.ui.link.cards.horizontal > .card img {
+  height: 200px; /* Set a fixed height for the card images */
+  object-fit: cover;
+}
+
+.card-container {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.card {
+  width: 30%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color:darkgray;
+}
+
+.card h3 {
+  color:black;
+}
+.card p{
+  color: black;
+}
+.some__quotes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.some__quotes > h4{
+  font-family: Lexend;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 170px;
+  width: 1200px;
+  border-radius: 0px;
+}
+.advantages{
+  position: relative;
+  height: 810px;
+  background: linear-gradient(0deg, rgba(0,0,0,00.5), rgba(0,0,0,0.5)),url("https://img.freepik.com/premium-photo/luxury-hotel-lobby-with-furniture-large-window-generative-ai_634358-381.jpg"), #c4c4c4;
+}
+.advantages__info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: transparent;
+  color: white;
+  padding-left: 40px;
+}
+.adv__header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.adv__header > h1{
+  font-family: Lexend;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 60px;
+  width: 753px;
+  border-radius: 0px;
+}
+.adv__header > h4{
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.5em;
+  text-align: center;
+  height: 20px;
+  width: 518px;
+  border-radius: 0px;
+  margin-top: 0px;
+}
+.adv__header > h5{
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.5em;
+  text-align: left;
+  height: 20px;
+  width: 100%;
+  border-radius: 0px;
+  margin-top: 0px;
+}
+.adv__h{
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 20px;
+  width: 976px;
+  border-radius: 0px;
+  margin-top: 0px;
+}
+/*.adv__img{
+  height: 100px;
+  width: 100px;
+  border-radius: 0px;
+  margin-right: 20px;
+}*/
+
+.quote__h1{
+  font-family: Lexend;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+}
+.quote__h4{
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.5em;
+  text-align: center;
+  color: rgba(0,0,0,1s);
+}
+
+
+
+
+
+.background-image {
+  background-image: url('https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+

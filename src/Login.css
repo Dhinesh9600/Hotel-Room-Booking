@@ -1,0 +1,119 @@
+/* .login {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  Link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  Link:hover {
+    text-decoration: underline;
+  }
+   */
+   .login {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(https://wepik.com/api/image/ai/9b0c9254-2b7d-4c00-98cc-e50a5503b741);
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+  }
+  
+  .login input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .login p {
+    text-align: center;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .login a {
+    text-align: center;
+    color: #3498db;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .login a:hover {
+    text-decoration: underline;
+    color: #258cd1;
+  }
+  
